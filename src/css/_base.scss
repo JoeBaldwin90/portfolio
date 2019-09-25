@@ -1,0 +1,20 @@
+// resets, variables, mixins and utility classes.
+
+// Colors  
+$white: #EEEEEE;
+$pink: #E6DFDA;
+$green: #8FBA99;
+$brown: #72514D;
+$blue: #2A8AD3;
+$black: #252329;
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nova+Square|Raleway:300,400,500&display=swap');
+$title: "Nova Square";
+$copy: "Raleway";
+
+// Resets
+h1, h2, h3 {
+    font-family: $title;
+    font-weight: 400;
+}
