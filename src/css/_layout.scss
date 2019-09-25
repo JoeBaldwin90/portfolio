@@ -10,11 +10,23 @@ body {
 
 // About page
 .profile {
-    height: 100%;
-    width: 100%;
+    height: 40vh;
+    width: 50%;
     background: url("../images/profile.jpg");
     background-size: cover;
     background-position: center;
+}
+
+@media only screen and (max-width: 620px) {
+    .profile {
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+    .profile {
+        width: 100%;
+    }
 }
 
 // Nav bar
