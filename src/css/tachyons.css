@@ -1473,7 +1473,7 @@ code {
 .link:hover,
 .link:link,
 .link:visited {
-    transition: color .15s ease-in
+    transition: all .15s ease-in
 }
 
 .list {
