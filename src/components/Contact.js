@@ -10,6 +10,7 @@ const Contact = () => (
             href="https://github.com/JoeBaldwin90"
             className="link"
             target="_blank"
+            rel="noopener noreferrer"
           >
             <h2 className="mw5-ns center f4 f3-ns fw2 fw3-ns pa3 tc ttu mb3 tag">
               GitHub
@@ -21,6 +22,7 @@ const Contact = () => (
             href="https://www.linkedin.com/in/jbaldwin90/"
             className="link"
             target="_blank"
+            rel="noopener noreferrer"
           >
             <h2 className="mw5-ns center f4 f3-ns fw2 fw3-ns tc pa3 ttu mb3 tag">
               LinkedIn

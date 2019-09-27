@@ -4,8 +4,8 @@ const ProjectsApi = {
       project: 1,
       type: "ReactJS",
       name: "Pukka Wax Radio",
-      github: "github.com/JoeBaldwin90/pukka-wax-radio",
-      website: "pukka-wax-radio.netlify.com",
+      github: "https://github.com/JoeBaldwin90/pukka-wax-radio",
+      website: "https://pukka-wax-radio.netlify.com",
       technologies: ["ReactJS", "Redux", "Node", "AJAX", "Tachyons", "Git"],
       url: "https://portfolio-images-jb.s3.eu-west-2.amazonaws.com/PukkaWax.png"
     },
@@ -13,8 +13,8 @@ const ProjectsApi = {
       project: 2,
       type: "ReactJS",
       name: "Jiffy",
-      github: "github.com/JoeBaldwin90/jiffy-react",
-      website: "jiffy-react-app.netlify.com",
+      github: "https://github.com/JoeBaldwin90/jiffy-react",
+      website: "https://jiffy-react-app.netlify.com",
       technologies: ["ReactJS", "Node", "AJAX", "Tachyons", "Git"],
       url: "https://portfolio-images-jb.s3.eu-west-2.amazonaws.com/Jiffy.png"
     },
@@ -41,7 +41,7 @@ const ProjectsApi = {
       type: "Ruby on Rails",
       name: "Source",
       github: "https://github.com/JoeBaldwin90/source",
-      website: "bit.ly/313smNR",
+      website: "https://bit.ly/313smNR",
       technologies: [
         "Ruby on Rails",
         "Heroku",
@@ -84,7 +84,7 @@ const ProjectsApi = {
       type: "Javascript / CSS",
       name: "Good Times Festival",
       github: "",
-      website: "goodtimes-jb.superhi.com",
+      website: "https://goodtimes-jb.superhi.com",
       technologies: ["HTML/CSS", "JavaScript", "Tachyons", "CSS Grid", "AJAX"],
       url:
         "https://portfolio-images-jb.s3.eu-west-2.amazonaws.com/goodtimes.png"
@@ -94,7 +94,7 @@ const ProjectsApi = {
       type: "Javascript / CSS",
       name: "Shapez",
       github: "",
-      website: "shapez.superhi.com",
+      website: "https://shapez.superhi.com",
       technologies: ["HTML/CSS", "JavaScript", "Tachyons", "SVG Animations"],
       url: "https://portfolio-images-jb.s3.eu-west-2.amazonaws.com/Sahpes.png"
     },
@@ -103,7 +103,7 @@ const ProjectsApi = {
       type: "Javascript / CSS",
       name: "Essemi",
       github: "",
-      website: "shapez.superhi.com",
+      website: "https://shapez.superhi.com",
       technologies: ["HTML/CSS", "jQuery", "Keyframes", "Data-filters"],
       url: "https://portfolio-images-jb.s3.eu-west-2.amazonaws.com/Essemai.png"
     }

@@ -13,18 +13,26 @@ const Project = props => {
   return (
     <div className="tc">
       <h1 className="pink ttu">{project.name}</h1>
-      <img src={project.url} className="mw7-l"/>
+      <img src={project.url} className="mw7-l" />
       <h2 className="mb2 f2 blue">{project.type}</h2>
       <ul>
         <li>
-          <a href={project.github} className="link">
+          <a
+            href={project.github}
+            className="link"
+            target="_blank"
+          >
             <h2 className="mw5-ns center f4 f3-ns fw2 fw3-ns pa3 tc ttu mb3 tag">
               GitHub
             </h2>
           </a>
         </li>
         <li>
-          <a href={project.website} className="link">
+          <a
+            href={project.website}
+            className="link"
+            target="_blank"
+          >
             <h2 className="mw5-ns center f4 f3-ns fw2 fw3-ns pa3 tc ttu mb3 tag">
               Website
             </h2>
