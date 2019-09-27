@@ -26,7 +26,7 @@ const Project = props => {
           <span>{project.technologies.join(" ")}</span>
       </div>
 
-      <Link to="/roster">Back</Link>
+      <Link to="/builds">Back</Link>
     </div>
   );
 };

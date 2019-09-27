@@ -8,24 +8,36 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-// About page
+// Navigation bar margin
+@media only screen and (min-width: 960px) {
+    .nav-margin {
+        margin-left: 107px;
+        max-width: calc(100vw - 107px);
+    }
+}
+
+// Navigation bar margin
+@media only screen and (max-width: 959px) {
+    .nav-margin {
+        margin-bottom: 83px;
+    }
+}
+
+// About 
 .profile {
-    height: 40vh;
-    width: 50%;
     background: url("../images/profile.jpg");
     background-size: cover;
     background-position: center;
 }
 
-@media only screen and (max-width: 620px) {
-    .profile {
-        width: 60%;
-    }
+.info-copy {
+    word-spacing: 0.5ch;
 }
 
-@media only screen and (max-width: 520px) {
+@media only screen and (max-width: 959px) {
     .profile {
-        width: 100%;
+        height: 35vh;
+        margin-bottom: 1em;
     }
 }
 
@@ -52,7 +64,7 @@ body {
 
 a.active,
 a.active:hover {
-    background-color: $green;
+    background-color: $nav-green;
 }
 
 @media only screen and (max-width: 30em) {
