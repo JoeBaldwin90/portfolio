@@ -17,22 +17,16 @@ const Project = props => {
       <h2 className="mb2 f2 blue">{project.type}</h2>
       <ul>
         <li>
-          <a
-            href={project.github}
-            className="link"
-            target="_blank"
-          >
-            <h2 className="mw5-ns center f4 f3-ns fw2 fw3-ns pa3 tc ttu mb3 tag">
-              GitHub
-            </h2>
-          </a>
+          {project.github && (
+            <a href={project.github} className="link" target="_blank">
+              <h2 className="mw5-ns center f4 f3-ns fw2 fw3-ns pa3 tc ttu mb3 tag">
+                GitHub
+              </h2>
+            </a>
+          )}
         </li>
         <li>
-          <a
-            href={project.website}
-            className="link"
-            target="_blank"
-          >
+          <a href={project.website} className="link" target="_blank">
             <h2 className="mw5-ns center f4 f3-ns fw2 fw3-ns pa3 tc ttu mb3 tag">
               Website
             </h2>
