@@ -103,7 +103,7 @@ const ProjectsApi = {
       type: "Javascript / CSS",
       name: "Essemi",
       github: "",
-      website: "https://shapez.superhi.com",
+      website: "https://essemi-jb.superhi.com/",
       technologies: ["HTML/CSS", "jQuery", "Keyframes", "Data-filters"],
       url: "https://portfolio-images-jb.s3.eu-west-2.amazonaws.com/Essemai.png"
     }
