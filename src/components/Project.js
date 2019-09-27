@@ -11,22 +11,35 @@ const Project = props => {
     return <div>Sorry, that project doesn't exist</div>;
   }
   return (
-    <div>
-      <h1>{project.name}</h1>
-      <h2>Type: {project.type}</h2>
+    <div className="tc">
+      <h1 className="pink ttu">{project.name}</h1>
+      <img src={project.url} className="mw7-l"/>
+      <h2 className="mb2 f2 blue">{project.type}</h2>
       <ul>
         <li>
-          <a href={project.github}>View on Github</a>
+          <a href={project.github} className="link">
+            <h2 className="mw5-ns center f4 f3-ns fw2 fw3-ns pa3 tc ttu mb3 tag">
+              GitHub
+            </h2>
+          </a>
         </li>
         <li>
-          <a href={project.website}>View Site!</a>
+          <a href={project.website} className="link">
+            <h2 className="mw5-ns center f4 f3-ns fw2 fw3-ns pa3 tc ttu mb3 tag">
+              Website
+            </h2>
+          </a>
         </li>
       </ul>
       <div>
-          <span>{project.technologies.join(" ")}</span>
+        {project.technologies.map(t => (
+          <span className="mr2 mb1 f6 dib tag">{t}</span>
+        ))}
       </div>
 
-      <Link to="/builds">Back</Link>
+      <Link to="/builds" className="link db ttu tag f3 center mt5 dib">
+        Go Back
+      </Link>
     </div>
   );
 };
