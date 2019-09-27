@@ -41,6 +41,57 @@ body {
     }
 }
 
+// All projects
+.all-projects {
+    flex-grow: 1;
+}
+
+.projects-container {
+    column-count: 2;
+    column-gap: 2em;
+}
+
+.project {
+    break-inside: avoid;
+    display: inline-block;
+    width: 100%;
+    margin: 0px 0px 3em;
+
+    .min-image-size {
+        width: 100%;
+        background-color: $black;
+        border-radius: 5px;
+    }
+
+    &:img {
+        object-fit: cover;
+    }
+
+    &:hover > img {
+        transition: all 3.5s linear;
+        filter: blur(3px);
+    }
+}
+
+.tag {
+    color: $pink;
+    background-color: $black;
+    border: solid $brown 1px;
+    padding: 4px 6px;
+    border-radius: 5px;
+    transition: border 0.2s ease;
+    &:hover {
+        border: solid $nav-green 1px;
+    }
+}
+
+@media only screen and (max-width: 959px) {
+     .projects-container {
+         column-count: 1;
+         column-gap: 0;
+     }
+}
+
 // Nav bar
 .icon {
     height: 25px;

@@ -3,7 +3,7 @@ import React from "react";
 const About = () => (
   <div className="w-100 flex flex-start items-center-ns">
     <div className="about mw6 mw8-l center db flex-l">
-      <div className="profile w-100 w-60-ns w-35-l">{/* Image */}</div>
+      <div className="profile br3 w-100 w-60-ns w-35-l">{/* Image */}</div>
       <div className="info w-100 pl3-l w-65-l">
         <h1 className="f2 f1-ns b pink ttu">Joe Baldwin</h1>
         <h2 className="f4 f3-ns fw2 fw3-ns ttu blue mb3">

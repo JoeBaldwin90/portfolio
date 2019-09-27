@@ -6,7 +6,8 @@ const ProjectsApi = {
       name: "Pukka Wax Radio",
       github: "github.com/JoeBaldwin90/pukka-wax-radio",
       website: "pukka-wax-radio.netlify.com",
-      technologies: ["ReactJS", "Redux", "Node", "AJAX", "Tachyons", "Git"]
+      technologies: ["ReactJS", "Redux", "Node", "AJAX", "Tachyons", "Git"],
+      url: "https://portfolio-images-jb.s3.eu-west-2.amazonaws.com/PukkaWax.png"
     },
     {
       project: 2,
@@ -14,7 +15,8 @@ const ProjectsApi = {
       name: "Jiffy",
       github: "github.com/JoeBaldwin90/jiffy-react",
       website: "jiffy-react-app.netlify.com",
-      technologies: ["ReactJS", "Node", "AJAX", "Tachyons", "Git"]
+      technologies: ["ReactJS", "Node", "AJAX", "Tachyons", "Git"],
+      url: "https://portfolio-images-jb.s3.eu-west-2.amazonaws.com/Jiffy.png"
     },
     {
       project: 3,
@@ -31,7 +33,8 @@ const ProjectsApi = {
         "Devise",
         "ActiveAdmin",
         "BCrypt"
-      ]
+      ],
+      url: "https://portfolio-images-jb.s3.eu-west-2.amazonaws.com/PinCo.png"
     },
     {
       project: 4,
@@ -49,12 +52,13 @@ const ProjectsApi = {
         "Devise",
         "ActiveAdmin",
         "BCrypt"
-      ]
+      ],
+      url: "https://portfolio-images-jb.s3.eu-west-2.amazonaws.com/Source.png"
     },
     {
       project: 5,
       type: "Ruby on Rails / AJAX & APIs",
-      name: "MINIMAL TWITTER",
+      name: "Minimal Twitter",
       github: "https://github.com/JoeBaldwin90/PinCo",
       website: "https://sleepy-tor-59434.herokuapp.com",
       technologies: [
@@ -63,15 +67,17 @@ const ProjectsApi = {
         "Git/GitHub",
         "Heroku",
         "OmniAuth"
-      ]
+      ],
+      url: "https://portfolio-images-jb.s3.eu-west-2.amazonaws.com/Twitter.png"
     },
     {
       project: 6,
       type: "AJAX & APIs",
-      name: "PinCo",
+      name: "Mood Boad",
       github: "github.com/JoeBaldwin90/mood_board",
       website: "http://moodsfordays.surge.sh/",
-      technologies: ["HTML/CSS", "JavaScript", "AJAX", "Postman"]
+      technologies: ["HTML/CSS", "JavaScript", "AJAX", "Postman"],
+      url: "https://portfolio-images-jb.s3.eu-west-2.amazonaws.com/Moods.png"
     },
     {
       project: 7,
@@ -79,7 +85,9 @@ const ProjectsApi = {
       name: "Good Times Festival",
       github: "",
       website: "goodtimes-jb.superhi.com",
-      technologies: ["HTML/CSS", "JavaScript", "Tachyons", "CSS Grid", "AJAX"]
+      technologies: ["HTML/CSS", "JavaScript", "Tachyons", "CSS Grid", "AJAX"],
+      url:
+        "https://portfolio-images-jb.s3.eu-west-2.amazonaws.com/goodtimes.png"
     },
     {
       project: 8,
@@ -87,7 +95,8 @@ const ProjectsApi = {
       name: "Shapez",
       github: "",
       website: "shapez.superhi.com",
-      technologies: ["HTML/CSS", "JavaScript", "Tachyons", "SVG Animations"]
+      technologies: ["HTML/CSS", "JavaScript", "Tachyons", "SVG Animations"],
+      url: "https://portfolio-images-jb.s3.eu-west-2.amazonaws.com/Sahpes.png"
     },
     {
       project: 9,
@@ -95,7 +104,8 @@ const ProjectsApi = {
       name: "Essemi",
       github: "",
       website: "shapez.superhi.com",
-      technologies: ["HTML/CSS", "jQuery", "Keyframes", "Data-filters"]
+      technologies: ["HTML/CSS", "jQuery", "Keyframes", "Data-filters"],
+      url: "https://portfolio-images-jb.s3.eu-west-2.amazonaws.com/Essemai.png"
     }
   ],
   all: function() {
