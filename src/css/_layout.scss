@@ -6,6 +6,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     color: $white;
+    line-height: 1.25;
     font-family: $copy;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -35,6 +36,7 @@ body {
 
 .info-copy {
     word-spacing: 0.5ch;
+    margin-bottom: 0.85em;
 }
 
 @media only screen and (max-width: 959px) {
