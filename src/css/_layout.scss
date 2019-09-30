@@ -72,7 +72,7 @@ body {
         object-fit: cover;
     }
 
-    &:hover > img {
+    &:hover>img {
         transition: all 3.5s linear;
         filter: blur(3px);
     }
@@ -85,47 +85,38 @@ body {
     padding: 4px 6px;
     border-radius: 5px;
     transition: border 0.2s ease;
+
     &:hover {
         border: solid $nav-green 1px;
     }
 }
 
 @media only screen and (max-width: 959px) {
-     .projects-container {
-         column-count: 1;
-         column-gap: 0;
-     }
+    .projects-container {
+        column-count: 1;
+        column-gap: 0;
+    }
 }
 
 // Nav bar
-.icon {
-    height: 25px;
-    width: 25px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-
-    &.about {
-        background: url("../images/man.svg")
-    }
-
-    &.builds {
-        background: url("../images/folder.svg")
-    }
-
-    &.contact {
-        background: url("../images/arroba.svg")
-    }
-}
-
 a.active,
 a.active:hover {
     background-color: $nav-green;
 }
 
 @media only screen and (max-width: 30em) {
-    .icon {
-        height: 20px;
-        width: 20px;
+    .svg-inline--fa {
+        font-size: 1em;
     }
+}
+
+// Contact
+.icon-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon {
+    margin-right: 0.5em;
 }

@@ -1,5 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Header = () => (
   <header>
@@ -9,27 +10,27 @@ const Header = () => (
           <NavLink
             exact
             to="/"
-            className="db white link tc pv2 ph3 hover-bg-green pv3-ns"
+            className="nav-icon db white link tc pv2 ph3 hover-bg-green pv3-ns"
           >
-            <div className="icon about center mb2"></div>
+            <FontAwesomeIcon icon="user-circle" size="lg" className="db center mb1" />
             <span className="ttu f6 b-ns f5-ns">About</span>
           </NavLink>
         </li>
         <li>
           <NavLink
             to="/builds"
-            className="db white link tc pv2 ph3 hover-bg-green pv3-ns"
+            className="nav-icon db white link tc pv2 ph3 hover-bg-green pv3-ns"
           >
-            <div className="icon builds center mb2"></div>
+            <FontAwesomeIcon icon="folder-open" size="lg" className="db center mb1" />
             <span className="ttu f6 b-ns f5-ns">Builds</span>
           </NavLink>
         </li>
         <li>
           <NavLink
             to="/contact"
-            className="db white link tc pv2 ph3 hover-bg-green pv3-ns"
+            className="nav-icon db white link tc pv2 ph3 hover-bg-green pv3-ns"
           >
-            <div className="icon contact center mb2"></div>
+            <FontAwesomeIcon icon="envelope" size="lg" className="db center mb1" />
             <span className="ttu f6 b-ns f5-ns">Contact</span>
           </NavLink>
         </li>
