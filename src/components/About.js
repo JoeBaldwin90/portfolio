@@ -10,7 +10,7 @@ const Icons = () => (
           <FontAwesomeIcon icon={["fab", "react"]} className="icon" />
           <FontAwesomeIcon icon={["fab", "node-js"]} className="icon" />
           <FontAwesomeIcon icon={["fab", "aws"]} className="icon" />
-          <FontAwesomeIcon icon={["fab", "database"]} className="icon" />
+          <FontAwesomeIcon icon="database" className="icon" />
           <FontAwesomeIcon icon={["fab", "trello"]} className="icon" />
           <FontAwesomeIcon icon={["fab", "slack"]} className="icon" />
           <FontAwesomeIcon icon={["fab", "github"]} className="icon" />
