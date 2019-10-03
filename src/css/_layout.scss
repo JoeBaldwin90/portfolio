@@ -39,6 +39,12 @@ body {
     margin-bottom: 0.85em;
 }
 
+.logos svg {
+    min-width: 1.5rem;
+    min-height: 1.5rem;
+    color: $nav-green;
+}
+
 @media only screen and (max-width: 959px) {
     .profile {
         height: 35vh;
