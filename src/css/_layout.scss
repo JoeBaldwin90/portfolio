@@ -84,6 +84,15 @@ body {
     }
 }
 
+.hidden {
+    opacity: 0;
+    transition: all 0.3s linear;
+}
+
+.visible {
+    transition: all 0.3s linear;
+}
+
 .tag {
     color: $pink;
     background-color: $black;
