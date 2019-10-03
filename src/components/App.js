@@ -6,10 +6,11 @@ import { fab } from "@fortawesome/free-brands-svg-icons";
 import {
   faEnvelope,
   faUserCircle,
-  faFolderOpen
+  faFolderOpen,
+  faEye
 } from "@fortawesome/free-solid-svg-icons";
 
-library.add(fab, faEnvelope, faUserCircle, faFolderOpen);
+library.add(fab, faEnvelope, faUserCircle, faFolderOpen, faEye);
 
 class App extends Component {
 
