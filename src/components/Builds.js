@@ -1,12 +1,12 @@
 import React from "react";
 import { Switch, Route } from "react-router-dom";
 import AllProjects from "./AllProjects";
-import Project from "./Project";
+import ProjectShow from "./ProjectShow";
 
 const Builds = () => (
   <Switch>
     <Route exact path="/builds" component={AllProjects} />
-    <Route path="/builds/:number" component={Project} />
+    <Route path="/builds/:number" component={ProjectShow} />
   </Switch>
 );
 

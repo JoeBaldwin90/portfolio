@@ -4,7 +4,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const Contact = () => (
   <div className="w-100 flex flex-start items-center-ns">
     <div className="contact mw6 mw7-l center db h-100">
-      <h1 className="f3 f2-m f1-l b pink mb4">Always happy to hear from you!</h1>
+      <h1 className="f3 f2-m f1-l b pink mb4">
+        Always happy to hear from you!
+      </h1>
       <ul className="flex justify-between">
         <li className="w-50 mr3">
           <a
@@ -13,13 +15,13 @@ const Contact = () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            <h2 className="icon-title center f5 f4-ns fw2 fw3-ns pa3 tc ttu mb3 tag">
+            <h2 className="icon-title center f5 f4-ns fw2 fw3-ns tc pa3 ttu mb3 tag">
               <FontAwesomeIcon
                 icon={["fab", "github"]}
                 size="m"
                 className="icon"
               />
-              GitHub
+              Github
             </h2>
           </a>
         </li>
