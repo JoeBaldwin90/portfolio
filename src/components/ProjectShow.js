@@ -1,11 +1,11 @@
 import React from "react";
 import ProjectsApi from "../data/projects-api.js";
 import { Link } from "react-router-dom";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import LinkButton from "./LinkButton"
 
 const BackButton = () => (
   <Link to="/builds" className="dib mb3">
-    <h2 className="link ttu tag f5 f4-ns center dib">Go Back</h2>
+    <h2 className="link ttu tag f5 f4-ns center dib">&lt; Back</h2>
   </Link>
 );
 
@@ -30,22 +30,26 @@ const Technologies = ({technologies}) => (
 );
 
 const Links = ({ website, github }) => (
-  <div className="mv3 flex flex-column items-center flex-row-ns justify-between-ns">
-    <a
-      href={website}
-      className="link tag pa2 tc w-70 w-40-ns mb2 mb0-ns"
-      target="_blank"
-    >
-      <FontAwesomeIcon icon="eye" size="m" className="icon" />
-      View project
-    </a>
-    {github && (
-      <a href={github} className="link tag pa2 w-70 w-40-ns tc" target="_blank">
-        <FontAwesomeIcon icon={["fab", "github"]} size="xs" className="icon" />
-        See the code
-      </a>
-    )}
-  </div>
+  <ul className="mv3 flex flex-column items-center flex-row-ns justify-between-ns">
+    <li className="w-70 w-40-ns">
+      <LinkButton
+        href={website}
+        logo="eye"
+        title="View project"
+        css="pa2 pa3-ns f6 f5-ns"
+      />
+    </li>
+    <li className="w-70 w-40-ns">
+      {github && (
+        <LinkButton
+          href={github}
+          logo="github"
+          title="See the code"
+          css="pa2 pa3-ns f6 f5-ns"
+        />
+      )}
+    </li>
+  </ul>
 );
 
 // Project looks up the project using the number parsed from

@@ -1,5 +1,5 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import LinkButton from "./LinkButton";
 
 const Contact = () => (
   <div className="w-100 flex flex-start items-center-ns">
@@ -9,52 +9,29 @@ const Contact = () => (
       </h1>
       <ul className="flex justify-between">
         <li className="w-50 mr3">
-          <a
+          <LinkButton
             href="https://github.com/JoeBaldwin90"
-            className="link"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2 className="icon-title center f5 f4-ns fw2 fw3-ns tc pa3 ttu mb3 tag">
-              <FontAwesomeIcon
-                icon={["fab", "github"]}
-                size="m"
-                className="icon"
-              />
-              Github
-            </h2>
-          </a>
+            logo="github"
+            title="GitHub"
+            css="f5 f4-ns fw2 fw3-ns pa3"
+          />
         </li>
         <li className="w-50">
-          <a
+          <LinkButton
             href="https://www.linkedin.com/in/jbaldwin90/"
-            className="link"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2 className="icon-title center f5 f4-ns fw2 fw3-ns tc pa3 ttu mb3 tag">
-              <FontAwesomeIcon
-                icon={["fab", "linkedin"]}
-                size="m"
-                className="icon"
-              />
-              LinkedIn
-            </h2>
-          </a>
+            logo="linkedin"
+            title="LinkedIn"
+            css="f5 f4-ns fw2 fw3-ns pa3"
+          />
         </li>
       </ul>
 
-      <a
+      <LinkButton
         href="mailto:jcameronbaldwin@gmail.com?Subject=Hello"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="link email"
-      >
-        <h2 className="icon-title w-100 center f5 f4-ns fw2 fw3-ns tc pa3 ttu mb3 tag email">
-          <FontAwesomeIcon icon="envelope" size="m" className="icon" />
-          jcameronbaldwin@gmail.com
-        </h2>
-      </a>
+        logo="envelope"
+        title="jcameronbaldwin@gmail.com"
+        css="f5 f4-ns fw2 fw3-ns pa3"
+      />
     </div>
   </div>
 );
