@@ -2,14 +2,15 @@ import React from "react";
 import ProjectsApi from "../data/projects-api.js";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Fade from "react-reveal/Fade";
 
-const Screenshot = ({url}) => {
+const Screenshot = ({ url }) => {
   return (
     <div className="min-image-size mb2">
       <img src={url} className="br3" alt="Project screenshot" />
     </div>
   );
-}
+};
 
 const Overlay = ({ hover }) => (
   <span className={`f3 f2-ns pink ${hover ? "visible" : "hidden"}`}>
@@ -21,7 +22,9 @@ const Title = ({ name, type, overlay }) => {
   return (
     <div>
       <div className="flex items-center justify-between">
-        <h1 className="pink mr2">{name}</h1>
+        <Fade cascade>
+          <h1 className="pink mr2">{name}</h1>
+        </Fade>
         <Overlay hover={overlay} />
       </div>
 
@@ -30,7 +33,7 @@ const Title = ({ name, type, overlay }) => {
   );
 };
 
-const Technologies = ({technologies}) => {
+const Technologies = ({ technologies }) => {
   return (
     <div>
       {technologies.map(t => (
@@ -38,7 +41,7 @@ const Technologies = ({technologies}) => {
       ))}
     </div>
   );
-}
+};
 
 // Each project component links to the project show page
 class Project extends React.Component {
