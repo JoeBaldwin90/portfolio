@@ -83,7 +83,7 @@ const ProjectsApi = {
     {
       project: 6,
       type: "AJAX & APIs",
-      name: "Mood Boad",
+      name: "Mood Board",
       github: "https://github.com/JoeBaldwin90/mood_board",
       website: "http://moodsfordays.surge.sh/",
       technologies: ["HTML/CSS", "JavaScript", "AJAX", "Postman"],
