@@ -33,14 +33,14 @@ const Links = ({ website, github }) => (
   <div className="mv3 flex flex-column items-center flex-row-ns justify-between-ns">
     <a
       href={website}
-      className="link tag tc w-70 w-40-ns mb2 mb0-ns"
+      className="link tag pa2 tc w-70 w-40-ns mb2 mb0-ns"
       target="_blank"
     >
       <FontAwesomeIcon icon="eye" size="m" className="icon" />
       View project
     </a>
     {github && (
-      <a href={github} className="link tag w-70 w-40-ns tc" target="_blank">
+      <a href={github} className="link tag pa2 w-70 w-40-ns tc" target="_blank">
         <FontAwesomeIcon icon={["fab", "github"]} size="xs" className="icon" />
         See the code
       </a>
@@ -64,7 +64,7 @@ const ProjectShow = props => {
   }
 
   return (
-    <div className="w-100 mw6-ns">
+    <div className="w-100 mw6-m mw7-ns">
       <BackButton />
       <img src={project.url} className="br3" alt="Project screenshot" />
       <ProjectInfo {...project} />
