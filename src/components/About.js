@@ -1,5 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import LinkButton from "./LinkButton";
 
 const Icons = () => (
         <div className="logos dn db-ns w-100 flex-ns flex-wrap-ns mb3">
@@ -42,6 +43,14 @@ const About = () => (
           I’m currently looking for a junior frontend web development
           opportunity. I'd like to work on creative and challenging projects
           with a mindful, communicative and supportive team.
+        </p>
+        <p className="tl">
+          <LinkButton
+            href="https://portfolio-images-jb.s3.eu-west-2.amazonaws.com/cirriculum_vitae_joe_baldwin.pdf"
+            logo="eye"
+            title="Open CV"
+            css="pa2 pa3-ns f6 f5-ns w-50 center ml0-ns mr0-ns"
+          />
         </p>
       </div>
     </div>

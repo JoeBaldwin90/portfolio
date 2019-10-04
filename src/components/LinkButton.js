@@ -13,7 +13,7 @@ const Icon = ({ icon }) => {
 const LinkButton = ({ href, logo, title, css }) => {
   return (
     <a href={href} className="link" target="_blank" rel="noopener noreferrer">
-      <h2 className={`icon-title tag center ttu mb3 ${css}`}>
+      <h2 className={`icon-title tag ttu ${css}`}>
         <Icon icon={logo} />
         {title}
       </h2>
