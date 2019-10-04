@@ -31,7 +31,7 @@ const Technologies = ({technologies}) => (
 
 const Links = ({ website, github }) => (
   <ul className="mv3 flex flex-column items-center flex-row-ns justify-between-ns">
-    <li className="w-70 w-40-ns">
+    <li className="w-70 w-40-ns mb3">
       <LinkButton
         href={website}
         logo="eye"
@@ -39,7 +39,7 @@ const Links = ({ website, github }) => (
         css="pa2 pa3-ns f6 f5-ns"
       />
     </li>
-    <li className="w-70 w-40-ns">
+    <li className="w-70 w-40-ns mb3">
       {github && (
         <LinkButton
           href={github}

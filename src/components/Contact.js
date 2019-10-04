@@ -13,7 +13,7 @@ const Contact = () => (
             href="https://github.com/JoeBaldwin90"
             logo="github"
             title="GitHub"
-            css="f5 f4-ns fw2 fw3-ns pa3"
+            css="f5 f4-ns fw2 fw3-ns pa3 mb3"
           />
         </li>
         <li className="w-50">
@@ -21,7 +21,7 @@ const Contact = () => (
             href="https://www.linkedin.com/in/jbaldwin90/"
             logo="linkedin"
             title="LinkedIn"
-            css="f5 f4-ns fw2 fw3-ns pa3"
+            css="f5 f4-ns fw2 fw3-ns pa3 mb3"
           />
         </li>
       </ul>
@@ -30,7 +30,7 @@ const Contact = () => (
         href="mailto:jcameronbaldwin@gmail.com?Subject=Hello"
         logo="envelope"
         title="jcameronbaldwin@gmail.com"
-        css="f5 f4-ns fw2 fw3-ns pa3"
+        css="f5 f4-ns fw2 fw3-ns pa3 mb3"
       />
     </div>
   </div>
