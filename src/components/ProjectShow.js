@@ -57,7 +57,7 @@ const ProjectShow = props => {
   if (!project) {
     return (
       <div>
-        <div>Sorry, that project doesn't exist</div>
+        <div className="mb3">Sorry, that project doesn't exist</div>
         <BackButton />
       </div>
     );

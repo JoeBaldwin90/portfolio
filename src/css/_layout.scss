@@ -119,9 +119,17 @@ a.active:hover {
     background-color: $nav-green;
 }
 
+.nav-icon {
+    min-width: 106px;
+}
+
 @media only screen and (max-width: 30em) {
     .svg-inline--fa {
         font-size: 1em;
+    }
+
+    .nav-icon {
+        min-width: 97px;
     }
 }
 
