@@ -3,10 +3,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Icon = ({ icon }) => {
   if (icon === "envelope" || icon === "eye") {
-    return <FontAwesomeIcon icon={icon} size="m" className="icon" />;
+    return <FontAwesomeIcon icon={icon} className="icon" />;
   }
   return (
-    <FontAwesomeIcon icon={["fab", `${icon}`]} size="m" className="icon" />
+    <FontAwesomeIcon icon={["fab", `${icon}`]} className="icon" />
   );
 };
 

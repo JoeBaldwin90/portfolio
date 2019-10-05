@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const NavEl = ({to, icon, title}) => {
   return (
-    <li>
+    <li key={title}>
       <NavLink
         exact
         to={to}

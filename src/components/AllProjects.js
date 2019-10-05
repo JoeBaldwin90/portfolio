@@ -14,7 +14,7 @@ const Screenshot = ({ url }) => {
 
 const Overlay = ({ hover }) => (
   <span className={`f3 f2-ns pink ${hover ? "visible" : "hidden"}`}>
-    <FontAwesomeIcon icon="eye" size="m" />
+    <FontAwesomeIcon icon="eye" />
   </span>
 );
 

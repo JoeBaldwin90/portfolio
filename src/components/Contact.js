@@ -8,7 +8,7 @@ const Contact = () => (
         Always happy to hear from you!
       </h1>
       <ul className="flex justify-between">
-        <li className="w-50 mr3">
+        <li key="GitHub" className="w-50 mr3">
           <LinkButton
             href="https://github.com/JoeBaldwin90"
             logo="github"
@@ -16,7 +16,7 @@ const Contact = () => (
             css="f5 f4-ns fw2 fw3-ns pa3 mb3"
           />
         </li>
-        <li className="w-50">
+        <li key="LinkedIn" className="w-50">
           <LinkButton
             href="https://www.linkedin.com/in/jbaldwin90/"
             logo="linkedin"
