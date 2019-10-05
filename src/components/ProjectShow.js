@@ -21,7 +21,7 @@ const Technologies = ({technologies}) => (
     <h2 className="green pt2 ttu">Technologies used: </h2>
     <ul className="flex justify-between flex-wrap">
       {technologies.map(tech => (
-        <li className="mv2 mr2 mr4-ns pink f6">
+        <li key={tech} className="mv2 mr2 mr4-ns pink f6">
           <code>{tech}</code>
         </li>
       ))}

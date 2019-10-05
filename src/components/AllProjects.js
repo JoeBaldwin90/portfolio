@@ -36,8 +36,8 @@ const Title = ({ name, type, overlay }) => {
 const Technologies = ({ technologies }) => {
   return (
     <div>
-      {technologies.map(t => (
-        <span className="mr2 mb1 f6 dib tag">{t}</span>
+      {technologies.map((t, index) => (
+        <span key={index} className="mr2 mb1 f6 dib tag">{t}</span>
       ))}
     </div>
   );
@@ -70,9 +70,11 @@ class Project extends React.Component {
   render() {
     const { project } = this.props;
     return (
-      <Link to={`/builds/${project}`} className="link mb3 w-100 w-40-l">
+      <Link
+        to={`/builds/${project}`}
+        className="link mb3 w-100 w-40-l"
+      >
         <div
-          key={project}
           className="project flex flex-column"
           onMouseEnter={this.toggleOverlay}
           onMouseLeave={this.closeOverlay}
@@ -90,8 +92,8 @@ class Project extends React.Component {
 const AllProjects = () => (
   <div className="all-projects flex justify-center items-center w-100 mw6 mw8-l">
     <div className="projects-container">
-      {ProjectsApi.all().map(p => (
-        <Project {...p} />
+      {ProjectsApi.all().map((p, index) => (
+        <Project {...p} key={index} />
       ))}
     </div>
   </div>
