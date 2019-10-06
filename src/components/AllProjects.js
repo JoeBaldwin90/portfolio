@@ -23,7 +23,7 @@ const Title = ({ name, type, overlay }) => {
     <div>
       <div className="flex items-center justify-between">
         <Fade cascade>
-          <h1 className="pink mr2">{name}</h1>
+          <h1 className="pink mr2 z--1">{name}</h1>
         </Fade>
         <Overlay hover={overlay} />
       </div>
@@ -37,7 +37,9 @@ const Technologies = ({ technologies }) => {
   return (
     <div>
       {technologies.map((t, index) => (
-        <span key={index} className="mr2 mb1 f6 dib tag">{t}</span>
+        <span key={index} className="mr2 mb1 f6 dib tag">
+          {t}
+        </span>
       ))}
     </div>
   );
@@ -70,10 +72,7 @@ class Project extends React.Component {
   render() {
     const { project } = this.props;
     return (
-      <Link
-        to={`/builds/${project}`}
-        className="link mb3 w-100 w-40-l"
-      >
+      <Link to={`/builds/${project}`} className="link mb3 w-100 w-40-l">
         <div
           className="project flex flex-column"
           onMouseEnter={this.toggleOverlay}
@@ -88,14 +87,14 @@ class Project extends React.Component {
   }
 }
 
+const projectData = ProjectsApi.all().map((p, index) => (
+  <Project {...p} key={index} />
+));
+
 // AllProjects iterates over all projects in the API
 const AllProjects = () => (
   <div className="all-projects flex justify-center items-center w-100 mw6 mw8-l">
-    <div className="projects-container">
-      {ProjectsApi.all().map((p, index) => (
-        <Project {...p} key={index} />
-      ))}
-    </div>
+    <div className="projects-container">{projectData}</div>
   </div>
 );
 

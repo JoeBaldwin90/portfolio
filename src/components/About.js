@@ -26,12 +26,11 @@ const About = () => (
     <div className="about mw6 mw8-l center db flex-l">
       <div className="profile br3 w-100 w-60-ns w-35-l">{/* Image */}</div>
       <div className="info w-100 pl3-l w-65-l">
-        
         <h1 className="f2 f1-ns b pink ttu">Joe Baldwin</h1>
         <h2 className="f4 f3-ns fw2 fw3-ns ttu blue mb2">
           Junior Web Developer
         </h2>
-        
+
         <Icons />
 
         <p className="info-copy f5 f4-l fw5 white">
@@ -53,7 +52,7 @@ const About = () => (
 
         <div className="tl pt3">
           <LinkButton
-            href="https://portfolio-images-jb.s3.eu-west-2.amazonaws.com/cirriculum_vitae_joe_baldwin.pdf"
+            href="https://portfolio-images-jb.s3.eu-west-2.amazonaws.com/JoeBaldwin_CV.pdf"
             logo="eye"
             title="Open CV"
             css="pa2 pa3-ns f6 f5-ns w-50 center ml0-ns mr0-ns"

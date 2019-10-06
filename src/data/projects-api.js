@@ -10,7 +10,7 @@ const ProjectsApi = {
       url:
         "https://portfolio-images-jb.s3.eu-west-2.amazonaws.com/PukkaWax.png",
       description:
-        "This React app integrates with the Mixcloud API to play selected mixes. I've used Redux to control the state. "
+        "Pukka Wax Radio is a React app which hosts hand-picked mixes from around the world. All of the data for this site, including the images, are pulled in from Mixcloud’s API using async fetch get requests. This app was first built using stateful components, but later refactored to incorporate Redux – which has been used to hold the API data and five other states. The main UX feature of this app is that users can play their chosen mix as they navigate around the site and explore each mix’s statistics. Tachyons is the mobile-first CSS toolkit that I’ve used to make the site  responsive. This was the final project that I built as part of my four week SuperHi React.js course."
     },
     {
       project: 2,
@@ -21,7 +21,7 @@ const ProjectsApi = {
       technologies: ["ReactJS", "Node", "AJAX", "Tachyons", "Git"],
       url: "https://portfolio-images-jb.s3.eu-west-2.amazonaws.com/Jiffy.png",
       description:
-        "This React app searches Giphy's API for gifs related to the user's search term."
+        "The idea behind Jiffy is simple; type in any search term and hit enter to see a random selection of related gifs from the Giphy API. The state and components visible to the user change when the user starts typing, hits enter to search and when the app is loading data from an API call."
     },
     {
       project: 3,
@@ -88,7 +88,8 @@ const ProjectsApi = {
       website: "http://moodsfordays.surge.sh/",
       technologies: ["HTML/CSS", "JavaScript", "AJAX", "Postman"],
       url: "https://portfolio-images-jb.s3.eu-west-2.amazonaws.com/Moods.png",
-      description: "This application allows creative users to type their mood into the search form (e.g. summer, festival, city). The app returns related images befitting the search term from the public Unsplash API."
+      description:
+        "Mood Board is a tool for creatives. Users to type their 'mood' into the search form and the app returns related images befitting the search term from the public Unsplash API. I used the Postman API development tool to set my headers and check the data returned by the endpoints. This project was built as part of a four-week Ajax & APIs online course. "
     },
     {
       project: 7,
@@ -119,7 +120,8 @@ const ProjectsApi = {
       website: "https://essemi-jb.superhi.com/",
       technologies: ["HTML/CSS", "jQuery", "Keyframes", "Data-filters"],
       url: "https://portfolio-images-jb.s3.eu-west-2.amazonaws.com/Essemai.png",
-      description: "This is an online clothing and accessory store built with HTML5 CSS3 and JavasCript ES6"
+      description:
+        "This is an online clothing and accessory store built with HTML5 CSS3 and JavasCript ES6"
     }
   ],
   all: function() {
