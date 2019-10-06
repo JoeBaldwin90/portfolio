@@ -34,20 +34,24 @@ const About = () => (
         <Icons />
 
         <p className="info-copy f5 f4-l fw5 white">
-          Driven by my desire to build and create, I decided to skill-up and
-          begin a new career path in January 2019. Since then I've been enjoying
-          the intellectual challenge of teaching myself to build full-stack web
-          applications through various online courses
-        </p>
-        <p className="info-copy f5 f4-l fw5 white">
-          At the moment I'm thoroughly enjoying working with ReactJS and Redux.
-          Javascript is my preferred language of choice, but I'm familiar and
-          happy to work with Ruby too.
-        </p>
-        <p className="info-copy f5 f4-l fw5 white">
           I’m currently looking for a junior frontend web development
-          opportunity. I'd like to work on creative and challenging projects
-          with a mindful, communicative and supportive team.
+          opportunity where I can advance my understanding of Javascript, React
+          and Redux.
+        </p>
+        <p className="info-copy f5 f4-l fw5 white">
+          I'm an enthusiastic, pragmatic and humble problem solver. I enjoy
+          collaborating, working in agile environments and I actively seek
+          constructive feedback. I believe open and honest communication is key
+          to building healthy working relationships, so I’d like to find a place
+          where I can dedicate time to creative and challenging projects with a
+          mindful, communicative and supportive team.
+        </p>
+        <p className="info-copy f5 f4-l fw5 white">
+          I decided to skill-up and begin a new career path in January 2019.
+          Since then I've been enjoying the intellectual challenge of teaching
+          myself to build full-stack web applications in my spare time through
+          various online courses, blogs and the helpful Stack Overflow community
+          (of course!).
         </p>
 
         <div className="tl pt3">
