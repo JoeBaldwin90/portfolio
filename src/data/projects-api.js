@@ -18,7 +18,7 @@ const ProjectsApi = {
       name: "Jiffy",
       github: "https://github.com/JoeBaldwin90/jiffy-react",
       website: "https://jiffy-react-app.netlify.com",
-      technologies: ["ReactJS", "Node", "AJAX", "Tachyons", "Git"],
+      technologies: ["ReactJS", "Node", "AJAX", "Tachyons", "CSS Grid", "Git"],
       url: "https://portfolio-images-jb.s3.eu-west-2.amazonaws.com/Jiffy.png",
       description:
         "The idea behind Jiffy is simple; type in any search term and hit enter to see a random selection of related gifs from the Giphy API. The state and components visible to the user change when the user starts typing, hits enter to search and when the app is loading data from an API call. This project was built in a week as part of my SuperHi React.js course."
@@ -37,11 +37,12 @@ const ProjectsApi = {
         "AWS",
         "Devise",
         "ActiveAdmin",
-        "BCrypt"
+        "BCrypt", 
+        "CarrierWave"
       ],
       url: "https://portfolio-images-jb.s3.eu-west-2.amazonaws.com/PinCo.png",
       description:
-        "A Ruby on Rails app for an imaginary online store that sells pin accessories. This project was built in two weeks as part of my SuperHi Ruby on Rails online course."
+        "A Ruby on Rails app for an imaginary online store that sells pin accessories. This project solidified my understanding of model associations, form validations, image hosting with AWS and admin user logins. This project was built in two weeks as part of my SuperHi Ruby on Rails online course."
     },
     {
       project: 4,
@@ -79,7 +80,7 @@ const ProjectsApi = {
       ],
       url: "https://portfolio-images-jb.s3.eu-west-2.amazonaws.com/Twitter.png",
       description:
-        "Minimal Twitter is a Rails application which displays a logged-in user's tweets in a clean, stylish way. Anyone with a Twitter account can use this app, which accesses the Twitter API using the Omiauth-twitter gem. This project was built as part of the AJAX & APIs SuperHI course."
+        "Minimal Twitter is a Ruby on Rails application which displays a logged-in user's tweets in a clean, stylish way. Anyone with a Twitter account can use this app, which accesses the Twitter API using the Omiauth-twitter gem. This project was built as part of my AJAX & APIs SuperHi course and is hosted on Heroku."
     },
     {
       project: 6,
@@ -90,7 +91,7 @@ const ProjectsApi = {
       technologies: ["HTML/CSS", "JavaScript", "AJAX", "Postman"],
       url: "https://portfolio-images-jb.s3.eu-west-2.amazonaws.com/Moods.png",
       description:
-        "Mood Board is a tool for creatives. Users to type their 'mood' into the search form and the app returns related images befitting the search term from the public Unsplash API. I used the Postman API development tool to set my headers and check the data returned by the endpoints. This project was built as part of a four-week Ajax & APIs online course."
+        "Mood Board is a tool for creatives. Users to type their 'mood' into the search form and the app returns related images befitting the search term from the public Unsplash API. I used the Postman API development tool to set my headers and check the data returned by different endpoints. This project was built as part of a four-week Ajax & APIs online course."
     },
     {
       project: 7,
@@ -98,10 +99,20 @@ const ProjectsApi = {
       name: "Good Times Festival",
       github: "",
       website: "https://goodtimes-jb.superhi.com",
-      technologies: ["HTML/CSS", "JavaScript", "Tachyons", "CSS Grid", "AJAX"],
+      technologies: [
+        "HTML/CSS",
+        "JavaScript",
+        "Tachyons",
+        "CSS Grid",
+        "AJAX",
+        "Stripe API",
+        "tilt.js",
+        "in-view.js"
+      ],
       url:
         "https://portfolio-images-jb.s3.eu-west-2.amazonaws.com/goodtimes.png",
-      description: "Good times festival is a vanilla JavaScript and CSS site. Stripe's API has been used to build a payment form (test payments only) to create a sleek UX for card payments. This project was built as part of my Advanced JavaScript and CSS SuperHi course."
+      description:
+        "Good times festival is a vanilla JavaScript and site which elegantly handles ticket sales for a design festival using Stripe's API. Tachyons has been used to keep the CSS lightweight and two JavaScript libraries (tilt.js & in-view.js) have been used to give the site some personality. This project was built as part of my Advanced JavaScript and CSS SuperHi course."
     },
     {
       project: 8,
@@ -109,9 +120,16 @@ const ProjectsApi = {
       name: "Shapez",
       github: "",
       website: "https://shapez.superhi.com",
-      technologies: ["HTML/CSS", "JavaScript", "Tachyons", "SVG Animations"],
+      technologies: [
+        "HTML/CSS",
+        "JavaScript",
+        "Tachyons",
+        "SVG Animations",
+        "anime.js"
+      ],
       url: "https://portfolio-images-jb.s3.eu-west-2.amazonaws.com/Sahpes.png",
-      description: "Shapez is a showcase of JavaScript powered SVG animations."
+      description:
+        "Shapez is a showcase of Anime.js powered SVG animations, styled with the CSS toolkit 'Tachyons'. This project was built as part of my SuperHi Advanced Javascript and CSS course."
     },
     {
       project: 9,
@@ -119,10 +137,10 @@ const ProjectsApi = {
       name: "Essemi",
       github: "",
       website: "https://essemi-jb.superhi.com/",
-      technologies: ["HTML/CSS", "jQuery", "Keyframes", "Data-filters"],
+      technologies: ["HTML/CSS", "jQuery", "Data-filters", "Responsive Design"],
       url: "https://portfolio-images-jb.s3.eu-west-2.amazonaws.com/Essemai.png",
       description:
-        "This is an online clothing and accessory store built with HTML5, CSS3 and JavasCript ES6 as part of my Advanced JavaScript and CSS SuperHi course."
+        "This is a responsive online clothing and accessory website built with HTML5, CSS3 and jQuery as part of my Advanced JavaScript and CSS SuperHi course. Data-attribue selectors have been used to filter the store's products by category type."
     }
   ],
   all: function() {
