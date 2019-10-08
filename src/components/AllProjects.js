@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from "react";
 import ProjectsApi from "../data/projects-api.js";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -46,7 +46,7 @@ const Technologies = ({ technologies }) => {
 };
 
 // Each project component links to the project show page
-class Project extends React.Component {
+class Project extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -91,7 +91,6 @@ const projectData = ProjectsApi.all().map((p, index) => (
   <Project {...p} key={index} />
 ));
 
-// AllProjects iterates over all projects in the API
 const AllProjects = () => (
   <div className="all-projects flex justify-center items-center w-100 mw6 mw8-l">
     <div className="projects-container">{projectData}</div>
