@@ -34,24 +34,30 @@ const About = () => (
         <Icons />
 
         <p className="info-copy f5 f4-l fw5 white">
+          Fruiting gourmet mushrooms indoors, getting a black-belt and going{" "}
+          <a
+            href="https://youtu.be/9bO77IrvYSo?t=20"
+            className="link green dim"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            faster than 60mph on a skateboard
+          </a>{" "}
+          have been three technical challenges that got my juices flowing. Now,
+          after being inspired by developers at the recently-acquired tech
+          startup, Loco2, I’m teaching myself to code.
+        </p>
+        <p className="info-copy f5 f4-l fw5 white">
+          At Loco2 I’ve developed an enthusiastic and pragmatic approach to
+          problem solving and a passion for working in agile and collaborative
+          environments. Since my promotion to Team Lead I’ve come to understand
+          the importance of open and honest communication and how to take
+          ownership of, and manage, complex projects over time.
+        </p>
+        <p className="info-copy f5 f4-l fw5 white">
           I’m currently looking for a junior frontend web development
           opportunity where I can advance my understanding of Javascript, React
           and Redux.
-        </p>
-        <p className="info-copy f5 f4-l fw5 white">
-          I'm an enthusiastic, pragmatic and humble problem solver. I enjoy
-          collaborating, working in agile environments and I actively seek
-          constructive feedback. I believe open and honest communication is key
-          to building healthy working relationships, so I’d like to find a place
-          where I can dedicate time to creative and challenging projects with a
-          mindful, communicative and supportive team.
-        </p>
-        <p className="info-copy f5 f4-l fw5 white">
-          I decided to skill-up and begin a new career path in January 2019.
-          Since then I've been enjoying the intellectual challenge of teaching
-          myself to build full-stack web applications in my spare time through
-          various online courses, blogs and the helpful Stack Overflow community
-          (of course!).
         </p>
 
         <div className="tl pt3">
