@@ -34,18 +34,17 @@ const About = () => (
         <Icons />
 
         <p className="info-copy f5 f4-l fw5 white">
-          Fruiting gourmet mushrooms indoors, getting a black-belt and going{" "}
+          I enjoy the intrinsic reward and process of learning. Be it Spanish, how to fruit gourmet mushrooms or{" "}
           <a
             href="https://youtu.be/9bO77IrvYSo?t=20"
-            className="link green dim"
+            className="link dim"
             target="_blank"
             rel="noopener noreferrer"
           >
-            faster than 60mph on a skateboard
-          </a>{" "}
-          have been three technical challenges that got my juices flowing. Now,
-          after being inspired by developers at the recently-acquired tech
-          startup, Loco2, I’m teaching myself to code.
+            how to go faster than 60mph on a skateboard
+          </a>. Now, after being inspired by
+          developers at the recently-acquired tech startup, Loco2, I’m teaching
+          myself to code.
         </p>
         <p className="info-copy f5 f4-l fw5 white">
           At Loco2 I’ve developed an enthusiastic and pragmatic approach to
