@@ -10,7 +10,7 @@ const ProjectsApi = {
       url:
         "https://portfolio-images-jb.s3.eu-west-2.amazonaws.com/PukkaWax.png",
       description:
-        "Pukka Wax Radio is a React app which hosts hand-picked mixes from around the world. All of the data for this site, including the images, are pulled in from Mixcloud’s API using async fetch get requests. This app was first built using stateful components, but later refactored to incorporate Redux – which has been used to hold the API data and five other states. The main UX feature of this app is that users can play their chosen mix as they navigate around the site and explore each mix’s statistics. Tachyons is the mobile-first CSS toolkit that I’ve used to make the site responsive. This was the final project that I built as part of my four week SuperHi React.js course."
+        "Pukka Wax Radio is a React app which hosts hand-picked mixes from around the world. All of the data for this site, including the images, are pulled in from Mixcloud’s API using async fetch get requests. This app was first built using stateful components, but later refactored to incorporate Redux – which has been used to hold the API data and five other states. The main UX feature of this app is that users can play their chosen mix as they navigate around the site and explore each mix’s statistics. Tachyons is the mobile-first CSS toolkit that I’ve used to make the site responsive. This was the final project that I built as part of my four week SuperHi React.js course."
     },
     {
       project: 2,
@@ -37,7 +37,7 @@ const ProjectsApi = {
         "AWS",
         "Devise",
         "ActiveAdmin",
-        "BCrypt", 
+        "BCrypt",
         "CarrierWave"
       ],
       url: "https://portfolio-images-jb.s3.eu-west-2.amazonaws.com/PinCo.png",

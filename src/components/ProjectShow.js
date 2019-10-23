@@ -5,7 +5,7 @@ import LinkButton from "./LinkButton"
 
 const BackButton = () => (
   <Link to="/builds" className="dib mb3">
-    <h2 className="link ttu tag f5 f4-ns center dib">&lt; Back</h2>
+    <h2 className="link ttu tag f5 f4-ns center dib pink">&lt; Back</h2>
   </Link>
 );
 
