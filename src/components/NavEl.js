@@ -1,6 +1,6 @@
-import React from "react";
-import { NavLink } from "react-router-dom";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import React from 'react';
+import { NavLink } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const NavEl = ({ to, icon, title }) => {
   return (
@@ -17,4 +17,4 @@ const NavEl = ({ to, icon, title }) => {
   );
 };
 
-export default NavEl
+export default NavEl;

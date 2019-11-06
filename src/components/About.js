@@ -1,22 +1,22 @@
-import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import LinkButton from "./LinkButton";
-import Fade from "react-reveal/Fade";
+import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import LinkButton from './LinkButton';
+import Fade from 'react-reveal/Fade';
 
 const Icons = () => (
   <div className="logos dn db-ns w-100 flex-ns flex-wrap-ns mb3">
     <Fade cascade>
-      <FontAwesomeIcon icon={["fab", "html5"]} className="icon" />
-      <FontAwesomeIcon icon={["fab", "css3-alt"]} className="icon" />
-      <FontAwesomeIcon icon={["fab", "sass"]} className="icon" />
-      <FontAwesomeIcon icon={["fab", "js"]} className="icon" />
-      <FontAwesomeIcon icon={["fab", "react"]} className="icon" />
-      <FontAwesomeIcon icon={["fab", "node-js"]} className="icon" />
-      <FontAwesomeIcon icon={["fab", "aws"]} className="icon" />
+      <FontAwesomeIcon icon={['fab', 'html5']} className="icon" />
+      <FontAwesomeIcon icon={['fab', 'css3-alt']} className="icon" />
+      <FontAwesomeIcon icon={['fab', 'sass']} className="icon" />
+      <FontAwesomeIcon icon={['fab', 'js']} className="icon" />
+      <FontAwesomeIcon icon={['fab', 'react']} className="icon" />
+      <FontAwesomeIcon icon={['fab', 'node-js']} className="icon" />
+      <FontAwesomeIcon icon={['fab', 'aws']} className="icon" />
       <FontAwesomeIcon icon="database" className="icon" />
-      <FontAwesomeIcon icon={["fab", "trello"]} className="icon" />
-      <FontAwesomeIcon icon={["fab", "slack"]} className="icon" />
-      <FontAwesomeIcon icon={["fab", "github"]} className="icon" />
+      <FontAwesomeIcon icon={['fab', 'trello']} className="icon" />
+      <FontAwesomeIcon icon={['fab', 'slack']} className="icon" />
+      <FontAwesomeIcon icon={['fab', 'github']} className="icon" />
     </Fade>
   </div>
 );
@@ -34,7 +34,8 @@ const About = () => (
         <Icons />
 
         <p className="info-copy f5 f4-l fw5 white">
-          I enjoy the intrinsic reward and process of learning. Be it Spanish, how to fruit gourmet mushrooms or{" "}
+          I enjoy the intrinsic reward and process of learning. Be it Spanish,
+          how to fruit gourmet mushrooms or{' '}
           <a
             href="https://youtu.be/9bO77IrvYSo?t=20"
             className="link dim"
@@ -42,9 +43,9 @@ const About = () => (
             rel="noopener noreferrer"
           >
             how to go faster than 60mph on a skateboard
-          </a>. Now, after being inspired by
-          developers at the recently-acquired tech startup, Loco2, I’m teaching
-          myself to code.
+          </a>
+          . Now, after being inspired by developers at the recently-acquired
+          tech startup, Loco2, I’m teaching myself to code.
         </p>
         <p className="info-copy f5 f4-l fw5 white">
           At Loco2 I’ve developed an enthusiastic and pragmatic approach to

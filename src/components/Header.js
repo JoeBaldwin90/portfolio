@@ -1,6 +1,6 @@
-import React, { Component } from 'react'
-import NavEl from "./NavEl";
-import Progress from "./Progress";
+import React, { Component } from 'react';
+import NavEl from './NavEl';
+import Progress from './Progress';
 
 class Header extends Component {
   state = {
@@ -8,7 +8,7 @@ class Header extends Component {
   };
 
   listenToScrollEvent = () => {
-    document.addEventListener("scroll", () => {
+    document.addEventListener('scroll', () => {
       requestAnimationFrame(() => {
         this.calculateScrollDistance();
       });
@@ -46,7 +46,7 @@ class Header extends Component {
   render() {
     return (
       <header>
-        <Progress scroll={this.state.scrollPosition + "%"} />
+        <Progress scroll={this.state.scrollPosition + '%'} />
         <nav className="fixed z-10 bottom-0 w-100 bg-black flex flex-row left-0-l w-auto-l h-100-l">
           <ul className="list w-100 flex justify-around flex-column-l justify-center-l">
             <NavEl to="/" icon="user-circle" title="About" />
@@ -58,6 +58,5 @@ class Header extends Component {
     );
   }
 }
- 
 
-export default Header
+export default Header;

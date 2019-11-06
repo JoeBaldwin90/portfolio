@@ -1,7 +1,7 @@
-import React from "react";
-import ProjectsApi from "../data/projects-api.js";
-import { Link } from "react-router-dom";
-import LinkButton from "./LinkButton"
+import React from 'react';
+import ProjectsApi from '../data/projects-api.js';
+import { Link } from 'react-router-dom';
+import LinkButton from './LinkButton';
 
 const BackButton = () => (
   <Link to="/builds" className="dib mb3">
@@ -16,7 +16,7 @@ const ProjectInfo = ({ name, description }) => (
   </div>
 );
 
-const Technologies = ({technologies}) => (
+const Technologies = ({ technologies }) => (
   <div>
     <h2 className="green pt2 ttu">Technologies used: </h2>
     <ul className="flex justify-between flex-wrap">

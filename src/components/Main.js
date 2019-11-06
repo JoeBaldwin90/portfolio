@@ -1,11 +1,11 @@
-import React from 'react'
-import { Switch, Route, withRouter } from "react-router-dom";
-import { TransitionGroup, CSSTransition } from "react-transition-group";
-import About from './About'
-import Builds from './Builds'
-import Contact from "./Contact";
+import React from 'react';
+import { Switch, Route, withRouter } from 'react-router-dom';
+import { TransitionGroup, CSSTransition } from 'react-transition-group';
+import About from './About';
+import Builds from './Builds';
+import Contact from './Contact';
 
-const Main = ({location}) => (
+const Main = ({ location }) => (
   <main className="nav-margin w-100 min-vh-100-ns flex flex-start items-center-l justify-center pa3 pa4-ns ph5-l">
     <TransitionGroup className="transition-group">
       <CSSTransition
@@ -23,4 +23,4 @@ const Main = ({location}) => (
   </main>
 );
 
-export default withRouter(Main)
+export default withRouter(Main);

@@ -1,13 +1,11 @@
-import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Icon = ({ icon }) => {
-  if (icon === "envelope" || icon === "eye") {
+  if (icon === 'envelope' || icon === 'eye') {
     return <FontAwesomeIcon icon={icon} className="icon" />;
   }
-  return (
-    <FontAwesomeIcon icon={["fab", `${icon}`]} className="icon" />
-  );
+  return <FontAwesomeIcon icon={['fab', `${icon}`]} className="icon" />;
 };
 
 const LinkButton = ({ href, logo, title, css }) => {

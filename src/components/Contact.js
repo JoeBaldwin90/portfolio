@@ -1,5 +1,5 @@
-import React from "react";
-import LinkButton from "./LinkButton";
+import React from 'react';
+import LinkButton from './LinkButton';
 
 const Contact = () => (
   <div className="w-100 flex flex-start items-center-ns">

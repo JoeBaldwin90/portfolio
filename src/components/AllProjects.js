@@ -1,8 +1,8 @@
-import React, { Component } from "react";
-import ProjectsApi from "../data/projects-api.js";
-import { Link } from "react-router-dom";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Fade from "react-reveal/Fade";
+import React, { Component } from 'react';
+import ProjectsApi from '../data/projects-api.js';
+import { Link } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import Fade from 'react-reveal/Fade';
 
 const Screenshot = ({ url }) => {
   return (
@@ -13,7 +13,7 @@ const Screenshot = ({ url }) => {
 };
 
 const Overlay = ({ hover }) => (
-  <span className={`f3 f2-ns pink ${hover ? "visible" : "hidden"}`}>
+  <span className={`f3 f2-ns pink ${hover ? 'visible' : 'hidden'}`}>
     <FontAwesomeIcon icon="eye" />
   </span>
 );

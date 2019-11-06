@@ -1,7 +1,7 @@
-import React from "react";
-import { Switch, Route } from "react-router-dom";
-import AllProjects from "./AllProjects";
-import ProjectShow from "./ProjectShow";
+import React from 'react';
+import { Switch, Route } from 'react-router-dom';
+import AllProjects from './AllProjects';
+import ProjectShow from './ProjectShow';
 
 const Builds = () => (
   <Switch>
