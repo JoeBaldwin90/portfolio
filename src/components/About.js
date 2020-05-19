@@ -35,7 +35,7 @@ const About = () => (
 
         <p className='info-copy f5 f4-l fw5 white'>
           I enjoy the intrinsic reward and process of learning. Be it Spanish,
-          how to fruit gourmet mushrooms or{" "}
+          rock climbing or{" "}
           <a
             href='https://youtu.be/9bO77IrvYSo?t=20'
             className='link dim'
@@ -47,16 +47,24 @@ const About = () => (
           .
         </p>
         <p className='info-copy f5 f4-l fw5 white'>
-          I have professional experience working with Angular, but I build MERN
-          applications in my spare time. When I'm not programming, I'm usually
-          rock climbing, practicing yoga or out in nature seeking adventure.
+          I've been teaching myself how to build full-stack applications since
+          January 2019 and I'm currently enjoying the MERN stack. JavaScript
+          applications are my forté, but I have experience with Ruby on Rails
+          too.
         </p>
         <p className='info-copy f5 f4-l fw5 white'>
           Due to COVID redundancies, I’m actively seeking a new React.js web
-          development role. My personality suits a collaborative, innovative
-          and pragmatic team. If that's you, then <a href="https://www.linkedin.com/in/jbaldwin90" className='link dim'
+          development role. My work-ethic suits a collaborative, innovative and
+          detail-oriented team. If that's you, then{" "}
+          <a
+            href='https://www.linkedin.com/in/jbaldwin90'
+            className='link dim'
             target='_blank'
-            rel='noopener noreferrer'>let's get connected</a>!
+            rel='noopener noreferrer'
+          >
+            I'd love to get connected
+          </a>
+          !
         </p>
 
         <div className='tl pt3'>
