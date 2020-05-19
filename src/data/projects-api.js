@@ -17,7 +17,7 @@ const ProjectsApi = {
       type: "MERN Stack",
       name: "Full-Stack Kanban",
       github: "https://github.com/JoeBaldwin90/full-stack-kanban",
-      website: "",
+      website: "https://full-stack-kanban.herokuapp.com/",
       technologies: [
         "React",
         "Redux",
@@ -31,10 +31,9 @@ const ProjectsApi = {
         "Axios",
         "ES6",
       ],
-      url:
-        "https://portfolio-images-jb.s3.eu-west-2.amazonaws.com/kanban-app.gif",
+      url: "https://portfolio-images-jb.s3.eu-west-2.amazonaws.com/kanban.gif",
       description:
-        "A full-stack MERN app for managing tasks, the 'Kanban' way. This project was built as part of a code-along Pluralsight course. I have worked with React, Redux, MongoDB, Node.js and Express separately before taking this course. But I'd not seen how they all fit together in a MERN stack and ultimately end up being hosted on a platform like Heroku.",
+        "A responsive Kanban task management board built using the MERN stack. You can easily create your own account and start managing your daily to-do's by following the 'sign-up' link on the login screen.",
     },
     {
       project: 3,
