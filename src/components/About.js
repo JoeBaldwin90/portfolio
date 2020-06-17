@@ -28,7 +28,7 @@ const About = () => (
       <div className='info w-100 pl3-l w-65-l'>
         <h1 className='f2 f1-ns b pink ttu'>Joe Baldwin</h1>
         <h2 className='f4 f3-ns fw2 fw3-ns ttu blue mb2'>
-          Junior Web Developer
+          Full-Stack Web Developer
         </h2>
 
         <Icons />
@@ -48,9 +48,9 @@ const About = () => (
         </p>
         <p className='info-copy f5 f4-l fw5 white'>
           I've been teaching myself how to build full-stack applications since
-          January 2019 and I'm currently enjoying the MERN stack. JavaScript
-          applications are my forté, but I have experience with Ruby on Rails
-          too.
+          January 2019 and I'm comfortable working with MERN and MEAN stacks.
+          JavaScript applications are my forté, but I have experience with Ruby
+          on Rails too.
         </p>
         <p className='info-copy f5 f4-l fw5 white'>
           Due to COVID redundancies, I’m actively seeking a new React.js web
@@ -69,7 +69,7 @@ const About = () => (
 
         <div className='tl pt3'>
           <LinkButton
-            href='https://portfolio-images-jb.s3.eu-west-2.amazonaws.com/Joe_Baldwin_CV.pdf'
+            href='https://portfolio-images-jb.s3.eu-west-2.amazonaws.com/JoeBaldwin_CV.pdf'
             logo='eye'
             title='Open CV'
             css='pa2 pa3-ns f6 f5-ns w-50 center ml0-ns mr0-ns'

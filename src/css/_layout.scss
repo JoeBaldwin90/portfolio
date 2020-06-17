@@ -31,7 +31,7 @@ body {
 .profile {
     background: url("https://portfolio-images-jb.s3.eu-west-2.amazonaws.com/JoeProfile.png");
     background-size: cover;
-    background-position: center;
+    background-position: 50% 0%;
 }
 
 .info-copy {
@@ -119,8 +119,9 @@ a.active:hover {
     background-color: $nav-green;
 }
 
-.nav-icon {
+a.nav-icon {
     min-width: 106px;
+    border-radius: 10px;
 }
 
 @media only screen and (max-width: 30em) {
