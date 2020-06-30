@@ -133,7 +133,7 @@ const ProjectsApi = {
         "BCrypt",
         "CarrierWave",
       ],
-      url: "https://portfolio-images-jb.s3.eu-west-2.amazonaws.com/PinCo.png",
+      url: "https://portfolio-images-jb.s3.eu-west-2.amazonaws.com/PinCo2.png",
       description:
         "A Ruby on Rails app for an imaginary online store that sells pin accessories. This project solidified my understanding of model associations, form validations, image hosting with AWS and admin user logins. This project was built in two weeks as part of my SuperHi Ruby on Rails online course.",
     },
