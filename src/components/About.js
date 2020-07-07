@@ -69,7 +69,7 @@ const About = () => (
 
         <div className='tl pt3'>
           <LinkButton
-            href='https://portfolio-images-jb.s3.eu-west-2.amazonaws.com/JoeBaldwin_CV.pdf'
+            href='https://portfolio-images-jb.s3.eu-west-2.amazonaws.com/JoeBaldwinCV.docx'
             logo='eye'
             title='Open CV'
             css='pa2 pa3-ns f6 f5-ns w-50 center ml0-ns mr0-ns'
